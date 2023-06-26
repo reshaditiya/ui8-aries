@@ -1,6 +1,6 @@
 import Image from "next/image"
 
-export function HeroTitle({}) {
+export default function HeroTitle({}) {
 	return (
 		<section className="relative mx-auto pb-[11.88rem] pt-[11.88rem] md:pb-[13rem] md:pt-[13rem]">
 			<div className="mx-auto max-w-[72.5rem] px-[1.25rem] md:px-[2.5rem]">

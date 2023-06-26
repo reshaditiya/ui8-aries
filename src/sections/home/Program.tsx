@@ -1,7 +1,7 @@
 import Image from "next/image"
 import { ArrowButton } from "@/components"
 
-export function Program({}) {
+export default function Program({}) {
 	return (
 		<section className="relative mx-auto mt-[2rem] max-w-[72.5rem] px-[1.25rem] md:px-[2.5rem]">
 			<div className="relative">

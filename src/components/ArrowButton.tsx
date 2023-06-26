@@ -1,6 +1,6 @@
 import Image from "next/image"
 
-export function ArrowButton({ title }: { title: string }) {
+export default function ArrowButton({ title }: { title: string }) {
 	return (
 		<div className="">
 			<button className="group flex items-center gap-[0.63rem] font-display font-[100] uppercase italic text-primary">

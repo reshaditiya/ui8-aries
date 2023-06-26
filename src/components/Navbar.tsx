@@ -1,7 +1,7 @@
 import Image from "next/image"
 import Link from "next/link"
 
-export function Navbar({}) {
+export default function Navbar({}) {
 	return (
 		<nav className="fixed top-0 z-10 w-full md:top-[1.88rem] md:px-[2.5rem]">
 			<div className="mx-auto flex max-w-[72.5rem] items-center bg-secondary-dark px-[1.25rem] py-[2rem] md:px-[3.75rem] md:py-[1.25rem]">
