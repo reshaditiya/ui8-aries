@@ -1,6 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
-import { ArrowButton } from "@/component"
+import { ArrowButton } from "@/components"
 
 export default function Home() {
 	return (
