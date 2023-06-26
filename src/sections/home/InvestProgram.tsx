@@ -17,7 +17,7 @@ export default function InvestProgram({}) {
 				</p>
 			</div>
 
-			<ul>
+			<ul className="mt-[3.75rem] flex flex-col gap-[3.75rem]">
 				{investPrograms.map((invest) => (
 					<InvestCard
 						company={invest.company}
@@ -32,7 +32,13 @@ export default function InvestProgram({}) {
 	)
 }
 
-const investPrograms = [
+const investPrograms: {
+	company: string
+	title: string
+	description: string
+	image1: string
+	image2: string
+}[] = [
 	{
 		company: "KAWASKI",
 		title: "Corporobo Design Interview with Ben Lukas.",
@@ -65,7 +71,7 @@ function InvestCard({
 	image2: string
 }) {
 	return (
-		<div className="group relative mt-[3.75rem] flex flex-col gap-[3.12rem] md:flex-row md:items-center even:md:flex-row-reverse">
+		<div className="group relative flex flex-col gap-[3.12rem] md:flex-row md:items-center even:md:flex-row-reverse">
 			<div className="relative md:flex-1">
 				<figure className="relative mr-[1.88rem] h-[13.75rem] md:mr-[6.25rem] md:h-[30rem] group-even:md:ml-[6.25rem] group-even:md:mr-0">
 					<Image
