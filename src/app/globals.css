@@ -33,4 +33,7 @@
 	.text-h2 {
 		@apply font-display text-[2.25rem] capitalize leading-[2.75rem] md:text-[3.87rem] md:leading-[4.62rem];
 	}
+	.text-h3 {
+		@apply font-display text-[1.62rem] capitalize md:text-[2.75rem];
+	}
 }
