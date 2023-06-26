@@ -47,7 +47,7 @@ export default function Home() {
 						</div>{" "}
 						Startup.
 					</h1>
-					<figure className="relative mx-auto hidden h-[3.62rem] w-[0.75rem] md:mt-[3rem] md:block">
+					<figure className="relative mx-auto hidden h-[3.62rem] w-[0.75rem] animate-bounce md:mt-[3rem] md:block">
 						<Image
 							src="/icon/scroll-arrow.svg"
 							fill
