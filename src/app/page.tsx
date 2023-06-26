@@ -82,7 +82,7 @@ export default function Home() {
 						/>
 					</figure>
 				</div>
-				<div className="mt-[2.5rem] flex max-w-[32.62rem] flex-col gap-[1.88rem] md:absolute md:top-[19.44rem] md:mt-0 md:gap-[3.75rem]">
+				<div className="mt-[2.5rem] flex flex-col gap-[1.88rem] md:absolute md:top-[19.44rem] md:mt-0 md:max-w-[32.62rem] md:gap-[3.75rem]">
 					<h2 className="text-h2">
 						building faster, smarter,together.
 					</h2>
@@ -102,7 +102,7 @@ export default function Home() {
 					<h2 className="text-h2 md:flex-1">
 						We invest $27 Billion per year into AI startups.
 					</h2>
-					<p className="max-w-[27.62rem] text-secondary-title md:flex-1">
+					<p className="text-secondary-title md:max-w-[27.62rem] md:flex-1">
 						They are showing researches and writting regularly about
 						the consequnces happening on AI. Our unique program is
 						designed for startups, combining hands-on help from a
@@ -112,9 +112,9 @@ export default function Home() {
 				</div>
 
 				{/* invest card */}
-				<div className="relative mt-[3.75rem] flex flex-col gap-[3.12rem] md:flex-row">
+				<div className="relative mt-[3.75rem] flex flex-col gap-[3.12rem] md:flex-row md:items-center">
 					<div className="relative md:flex-1">
-						<figure className="relative mr-[1.88rem] h-[13.75rem] md:mx-auto md:h-[30rem]">
+						<figure className="relative mr-[1.88rem] h-[13.75rem] md:mr-[6.25rem] md:h-[30rem]">
 							<Image
 								src="/images/home/invest-program/kawaski-1.webp"
 								fill
@@ -122,7 +122,7 @@ export default function Home() {
 								className="object-cover"
 							/>
 						</figure>
-						<figure className="absolute right-0 top-[1.88rem] h-[13.75rem] w-[9.37rem] md:top-[3.75rem] md:h-[23rem] md:w-[16.75rem]">
+						<figure className="absolute right-0 top-[1.88rem] h-[13.75rem] w-[9.37rem] md:h-[23rem] md:w-[16.75rem]">
 							<Image
 								src="/images/home/invest-program/kawaski-2.webp"
 								fill
@@ -130,7 +130,7 @@ export default function Home() {
 							/>
 						</figure>
 					</div>
-					<div className="flex max-w-[32.62rem] flex-1 flex-col gap-[1.75rem] md:gap-[2.83rem]">
+					<div className="flex flex-1 flex-col gap-[1.75rem] md:max-w-[32.62rem] md:gap-[2.83rem]">
 						<header className="flex flex-col gap-[0.38rem]">
 							<span className="font-display tracking-[0.3rem] text-secondary-title/70">
 								KAWASKI
